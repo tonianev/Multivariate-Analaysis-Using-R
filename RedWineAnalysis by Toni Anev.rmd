@@ -5,8 +5,6 @@ Red Wine Quality Insights by Toni Anev
 ========================================================
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, packages}
-# Load all of the packages that you end up using in your analysis in this code
-# chunk.
 library(dplyr)
 library(ggplot2)
 library(gridExtra)
@@ -890,51 +888,3 @@ are of Portuguese  origin. It would be interesting to incorporate samples of
 varying nationalities and run comparisons not only on quality but composition of
 each wines. Additionally, having a more diverse sample would allow for better 
 predictions and analysis  of each wine. 
-
-#References
-
-P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. 
-Modeling wine preferences by data mining from physicochemical properties.
-In Decision Support Systems, Elsevier, 47(4):547-553. ISSN: 0167-9236.
-
-http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_(ggplot2)/
-
-https://stackoverflow.com/questions/15633714/adding-a-regression-line-on-a-ggplot
-
-http://sape.inf.usi.ch/quick-reference/ggplot2/geom_jitter
-
-http://ggplot2.tidyverse.org/reference/labs.html
-
-https://cran.r-project.org/web/packages/gridExtra/vignettes/arrangeGrob.html
-
-http://winefolly.com/update/sugar-in-wine-misunderstanding/
-
-https://en.wikipedia.org/wiki/Red_wine
-
-https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html
-
-https://en.wikipedia.org/wiki/Citric_acid
-
-https://www.practicalwinery.com/janfeb09/page5.htm
-
-https://rpubs.com/kaz_yos/ggplot2-stat-summary
-
-http://www.sthda.com/english/wiki/ggplot2-point-shapes
-
-http://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html
-
-https://www.everwonderwine.com/blog/2017/1/14/is-there-a-relationship-between-a-wines-alcohol-level-and-its-sweetness
-
-https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf
-
-https://stackoverflow.com/questions/46201785/scale-color-brewer-ggplot2-does-not-colour-all-the-lines
-
-http://ggplot.yhathq.com/docs/scale_color_brewer.html
-
-https://stackoverflow.com/questions/9028662/predict-maybe-im-not-understanding-it
-
-https://rtutorialseries.blogspot.ca/2009/12/r-tutorial-series-multiple-linear.html
-
-https://stackoverflow.com/questions/13236158/real-cube-root-of-a-negative-number
-
-https://en.wikipedia.org/wiki/Tartaric_acid
