@@ -1,6 +1,3 @@
----
-output: html_document
----
 Red Wine Quality Insights by Toni Anev
 ========================================================
 
